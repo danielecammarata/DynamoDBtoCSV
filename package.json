@@ -1,0 +1,19 @@
+{
+  "name": "dynamodbtocsv",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.726.1",
+    "@aws-sdk/lib-dynamodb": "^3.726.1",
+    "@types/minimist": "^1.2.5",
+    "csv-writer": "^1.6.0",
+    "minimist": "^1.2.8",
+    "vitest": "^2.1.8"
+  }
+}
